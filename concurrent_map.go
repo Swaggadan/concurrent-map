@@ -5,7 +5,7 @@ import (
 	"sync"
 )
 
-var SHARD_COUNT = 300
+var SHARD_COUNT = 150
 
 // A "thread" safe map of type string:Anything.
 // To avoid lock bottlenecks this map is dived to several (SHARD_COUNT) map shards.
